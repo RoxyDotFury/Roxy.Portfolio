@@ -1,5 +1,146 @@
 body {
-    background: #ffffff;
-    color: #000000;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #D04A6F;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: 80rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.navbar{
+  font-size: x-large;
+  font-family: 'Times New Roman', serif;
+    height: 8rem;    
+    display: flex;
+    color: white;
+    text-align: center;
+
+}
+.navbar ul{
+  border-left:solid;
+  margin-left: 2rem;
+  display: flex;
+  flex: 1;
+  vertical-align: center;
+}
+
+.navbar li {
+  list-style-type: none;
+  float: left;
+  margin: auto;
+}
+
+.navbar li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  display: inline-block;
+}
+
+.navbar li a:hover {
+  background-color: #111111;
+}
+.logo {
+    display: block;
+    max-width: 10rem;
+    min-width: 10rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .logo {
+        max-width: 30rem;
+        min-width: 30rem;
+    }
+}
+.logo img {
+  width: 100%;
+  object-fit: scale-down;
+}
+
+
+#projects h1{
+  margin-bottom: 0px;
+}
+#projects .return{
+ text-align:center;
+ color: black ;
+ text-decoration: none;
+ font-weight: lighter;
+}
+#projects .return:hover{
+ color:white ;
+}
+#projects .main-content{
+    height: 40rem;    
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.671);
+    margin-bottom: 2rem;
+  }
+    #projects .main-content-info{
+      display:block;
+      width: 40%;
+      color: #D04A6F;
+      padding-left: 2rem;
+      padding-top: 1rem;
+    }
+    #projects .main-content-title{
+      display: block;
+      line-height: .5em;
+    }
+        #projects .main-content-title h4{
+          font-style: italic;
+      }
+    #projects .main-content-body{
+      margin-top: 5rem;
+      display: block;
+    }
+    #projects .main-content iframe{
+      width: 80%;
+      margin: 5rem;
+    }
+#projects .subcontent{
+    height: 15rem;    
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.671);
+}
+    .subcontent img{
+    width: 75%;
+    object-fit: scale-down;
+    
+    }
+
+/*SLIDESHOW CSS*/
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
 }
