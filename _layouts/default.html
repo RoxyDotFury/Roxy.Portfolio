@@ -3,10 +3,24 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
+    <title>Roxy.Fury - {{page.title}}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
   <body>
-    {{ content }}
+    <header>
+      <div class="navbar">
+        <a href="/index.html" class="logo">
+          <img src="/assets/Images/CharlynLogo_Main.png" alt="Charlyn Borg"/>
+        </a>
+      <ul>
+        <li><a href="/gallery">Reels/Gallery</a></li>
+        <li><a href="/projects">Projects</a></li>
+         <li><a href="/contact">Contact</a></li>
+      </ul>
+      </div>
+    </header>
+    {{content}}
+    
+  
   </body>
 </html>
