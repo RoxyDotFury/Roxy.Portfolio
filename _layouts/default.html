@@ -9,13 +9,13 @@
   <body>
     <header>
       <div class="navbar">
-        <a href="/index.html" class="logo">
-          <img src="/assets/Images/CharlynLogo_Main.png" alt="Charlyn Borg"/>
+        <a href="{{ '/' | relative_url }}" class="logo">
+          <img src="{{ '/assets/Images/CharlynLogo_Main.png' | relative_url }}" alt="Charlyn Borg"/>
         </a>
       <ul>
-        <li><a href="/gallery">Reels/Gallery</a></li>
-        <li><a href="/projects">Projects</a></li>
-         <li><a href="/contact">Contact</a></li>
+        <li><a href="{{ '/gallery' | relative_url }}">Reels/Gallery</a></li>
+        <li><a href="{{ '/projects' | relative_url }}">Projects</a></li>
+         <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
       </ul>
       </div>
     </header>
