@@ -2,9 +2,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/roxy.portfolio" # the subpath of your site, e.g. /blog
 title: "Charlyn Borg" # the name of your site, e.g. ACME Corp.
 theme: null
-sass:
-  style: expanded
 plugins:
+  - jekyll-tidy
 exclude:
   - README.md
   - "*.nix"
