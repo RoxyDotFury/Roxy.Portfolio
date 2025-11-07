@@ -15,77 +15,9 @@ title: Devil's Debt
         </div>
     <div class="main-content-body">
     <p> Student Film for my Bachelors at <i>Swinburne</i>. </p>
-    <p>On board as an animator, as well as the films technical director where I set up file directories and reusable node systems for compositing.</p>
+    <p>On board as an animator for roughs and tiedowns, as well as the films technical director and lead compositor.</p>
     </div>
     </div>
 
-    <iframe src="https://player.vimeo.com/video/1113908189?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="House Bot : LoopDeLoop, August Submission (Home)"></iframe>
+    <iframe src="https://www.youtube.com/embed/HL0fvYK3X9o" title="Devil&#39;s Debt - Animation Showcase Portfolio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-
-<h1>Animation Highlights</h1>
-<div class="subcontent">
-    <div class="slideshow-container">
-    <div class="mySlides1">
-        <img src="{{ '/assets/Images/Projects/DDebt/AnimationShowcase_Sq4Sh1.gif' | relative_url }}" style="width:100%">
-        <p>Roughs BG by <i>Angelo Scott</i></p>
-    </div>
-
-    <div class="mySlides1">
-        <img src="{{ '/assets/Images/Projects/DDebt/AnimationShowcase_Sq5Sh3.gif' | relative_url }}" style="width:100%">
-        <p>Roughs BG by <i>Angelo Scott</i></p>
-    </div>
-
-    <div class="mySlides1">
-        <img src="{{ '/assets/Images/Projects/DDebt/AnimationShowcase_Sq10Sh6.gif' | relative_url }}" style="width:100%">
-    </div>
-
-    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-    </div>
-</div>
-
-<h1>Compositing Highlights</h1>
-<div class="subcontent">
-    <div class="slideshow-container">
-    <div class="mySlides2">
-        <img src="{{ '/assets/Images/Projects/DDebt/CoimpositingShowcase_Sq1Sh5.gif' | relative_url }}" style="width:100%">
-        <p>Animation by <i>Trinity Philips</i></p>
-    </div>
-
-    <div class="mySlides2">
-        <img src="{{ '/assets/Images/Projects/DDebt/CoimpositingShowcase_Sq1Sh8.gif' | relative_url }}" style="width:100%">
-        <p>Animation by <i>Trinity Philips</i></p>
-    </div>
-
-    <div class="mySlides2">
-        <img src="{{ '/assets/Images/Projects/DDebt/CoimpositingShowcase_Sq11Sh1.gif' | relative_url }}" style="width:100%">
-        <p>Animation by <i>Trinity Philips</i></p>
-    </div>
-
-  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-    </div>
-</div>
-</div>
-
-<script>
-let slideIndex = [1,1];
-let slideId = ["mySlides1", "mySlides2"]
-showSlides(1, 0);
-showSlides(1, 1);
-
-function plusSlides(n, no) {
-  showSlides(slideIndex[no] += n, no);
-}
-
-function showSlides(n, no) {
-  let i;
-  let x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}    
-  if (n < 1) {slideIndex[no] = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex[no]-1].style.display = "block";  
-}
-</script>
