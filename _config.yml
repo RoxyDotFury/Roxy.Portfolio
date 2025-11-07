@@ -5,7 +5,6 @@ theme: null
 sass:
   style: expanded
 plugins:
-  - jekyll-tidy
 exclude:
   - README.md
   - "*.nix"
